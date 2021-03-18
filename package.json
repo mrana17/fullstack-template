@@ -13,8 +13,8 @@
     "stylelint": "stylelint \"**/*.css\"",
     "prepare": "husky install",
     "test": "npm run eslint && npm run stylelint && npm run prettycheck && npm run typecheck",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "start-storybook -s ./public -p 6006",
+    "build-storybook": "build-storybook -s public"
   },
   "dependencies": {
     "next": "10.0.8",
